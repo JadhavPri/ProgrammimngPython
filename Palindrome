@@ -14,6 +14,8 @@ In phrases or sentences, spaces and punctuation are often ignored, so "A man, a 
    d) Check if the cleaned string reads the same forwards and backwards
 3. Create an if-else statement to call the function & print true result in if block & false result in else block
 
+Note: ''.join(filtered_chars) --> Converts List to a string e.g. ['a', 'b', 'c', 'd'] = abcd 
+
 """
 
 def is_palindrome(s):
