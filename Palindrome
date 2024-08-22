@@ -14,7 +14,10 @@ In phrases or sentences, spaces and punctuation are often ignored, so "A man, a 
    d) Check if the cleaned string reads the same forwards and backwards
 3. Create an if-else statement to call the function & print true result in if block & false result in else block
 
-Note: ''.join(filtered_chars) --> Converts List to a string e.g. ['a', 'b', 'c', 'd'] = abcd 
+Note: 
+
+-- ''.join(filtered_chars) --> Converts List to a string e.g. ['a', 'b', 'c', 'd'] = abcd 
+--  isalnum() is an inbuilt method in Python. It is a string method that checks if all the characters in a given string are alphanumeric. An alphanumeric character is either a letter (a-z, A-Z) or a digit (0-9).
 
 """
 
