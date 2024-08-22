@@ -4,6 +4,16 @@ For example, "racecar" and "level" are palindromes because they spell the same t
 In phrases or sentences, spaces and punctuation are often ignored, so "A man, a plan, a canal, Panama!" is also a palindrome.
 
 """
+
+"""
+1. Take a string from the user
+2. Write a function to check if the string is a palindrome
+   a) Remove spaces and convert it to all lowercase
+   b) Check if the cleaned string reads same forward & backward and return the result as True or False
+3. Create an if-else statement to call the function & print true result in if block & false result in else block
+
+"""
+
 def is_palindrome(s):
     # Remove spaces and convert to lowercase for uniformity
     cleaned_string = ''.join(c.lower() for c in s if c.isalnum())
