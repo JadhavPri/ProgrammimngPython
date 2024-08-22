@@ -9,7 +9,7 @@ In phrases or sentences, spaces and punctuation are often ignored, so "A man, a 
 1. Take a string from the user
 2. Write a function to check if the string is a palindrome
    a) Initialize an empty list to store characters
-   b) Loop through each character in the input string
+   b) For each Loop through each character in the input string
    c) Join the list into a single cleaned string
    d) Check if the cleaned string reads the same forwards and backwards
 3. Create an if-else statement to call the function & print true result in if block & false result in else block
