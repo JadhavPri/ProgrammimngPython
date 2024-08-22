@@ -2,7 +2,7 @@
 
 1. Write manual steps for every action
 2. Take input from user
-3. Create a function for the action
+3. Create a parameterized function for the action
    a) Add step by step logic
    b) Use constants as placeholders = 0 / 1 / empty string 
    c) for each / for loop
