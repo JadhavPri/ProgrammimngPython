@@ -1,0 +1,20 @@
+"""
+Frequency of elements manually
+"""
+
+# List of elements
+elements = [1, 2, 5, 2, 7, 9, 9, 0, 2, 2, 1]
+
+# Dictionary to store frequencies
+frequency = {}
+
+# Count frequencies
+for element in elements:
+    if element in frequency:
+        frequency[element] += 1
+    else:
+        frequency[element] = 1
+
+# Print the frequencies
+for item, count in frequency.items():
+    print(f"Element {item}: Frequency {count}")
