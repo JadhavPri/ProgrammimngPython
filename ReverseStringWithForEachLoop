@@ -1,0 +1,15 @@
+"""
+Reverse string with for each loop
+
+"""
+
+def reverse_string(s):
+    reversed_str = ""
+    for char in s:
+        reversed_str = char + reversed_str
+    return reversed_str
+
+# Test the function
+input_string = input("Enter a string to reverse: ")
+reversed_string = reverse_string(input_string)
+print(f'Reversed string: {reversed_string}')
