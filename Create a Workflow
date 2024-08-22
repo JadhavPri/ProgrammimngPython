@@ -4,7 +4,7 @@
 2. Take input from user
 3. Create a parameterized function for the action
    a) Add step by step logic
-   b) Use constants as placeholders = 0 / 1 / empty string 
+   b) Use constants as placeholders = 0 / 1 / empty string , add data to it
    c) for each / for loop
    d) Return a value
 4. Call the function, get the value, print the value
