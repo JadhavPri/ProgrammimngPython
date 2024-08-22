@@ -10,7 +10,9 @@ In phrases or sentences, spaces and punctuation are often ignored, so "A man, a 
 2. Write a function to check if the string is a palindrome
    a) Initialize an empty list to store characters
    b) For each Loop through each character in the input string
-   c) Join the list into a single cleaned string
+       i ) Chekc if it's alphanumeric 
+       ii ) If yes, convert to lowercase and append to the empty list
+   c) Join the filtered list into a single cleaned string
    d) Check if the cleaned string reads the same forwards and backwards
 3. Create an if-else statement to call the function & print true result in if block & false result in else block
 
