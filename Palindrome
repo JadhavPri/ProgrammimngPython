@@ -8,17 +8,31 @@ In phrases or sentences, spaces and punctuation are often ignored, so "A man, a 
 """
 1. Take a string from the user
 2. Write a function to check if the string is a palindrome
-   a) Remove spaces and convert it to all lowercase
-   b) Check if the cleaned string reads same forward & backward and return the result as True or False
+   a) Initialize an empty list to store characters
+   b) Loop through each character in the input string
+   c) Join the list into a single cleaned string
+   d) Check if the cleaned string reads the same forwards and backwards
 3. Create an if-else statement to call the function & print true result in if block & false result in else block
 
 """
 
 def is_palindrome(s):
-    # Remove spaces and convert to lowercase for uniformity
-    cleaned_string = ''.join(c.lower() for c in s if c.isalnum())
+    # Initialize an empty list to store characters
+    filtered_chars = []
+
+    # Loop through each character in the input string
+    for c in s:
+        # Check if the character is alphanumeric
+        if c.isalnum():
+            # Convert to lowercase and append to the list
+            filtered_chars.append(c.lower())
+
+    # Join the list into a single cleaned string
+    cleaned_string = ''.join(filtered_chars)
+
     # Check if the cleaned string reads the same forwards and backwards
     return cleaned_string == cleaned_string[::-1]
+
 
 # Test the function
 input_string = input("Enter a string to check if it's a palindrome: ")
