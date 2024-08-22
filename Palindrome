@@ -1,0 +1,18 @@
+"""
+A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward, ignoring spaces, punctuation, and capitalization. 
+For example, "racecar" and "level" are palindromes because they spell the same thing in both directions. 
+In phrases or sentences, spaces and punctuation are often ignored, so "A man, a plan, a canal, Panama!" is also a palindrome.
+
+"""
+def is_palindrome(s):
+    # Remove spaces and convert to lowercase for uniformity
+    cleaned_string = ''.join(c.lower() for c in s if c.isalnum())
+    # Check if the cleaned string reads the same forwards and backwards
+    return cleaned_string == cleaned_string[::-1]
+
+# Test the function
+input_string = input("Enter a string to check if it's a palindrome: ")
+if is_palindrome(input_string):
+    print(f'"{input_string}" is a palindrome.')
+else:
+    print(f'"{input_string}" is not a palindrome.')
