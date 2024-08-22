@@ -1,10 +1,11 @@
 # Approach
 
-1. Take input from user
-2. Create a function for the action
+1. Write manual steps for every action
+2. Take input from user
+3. Create a function for the action
    a) Add step by step logic
    b) Use constants as placeholders = 0 / 1 / empty string 
    c) for each / for loop
    d) Return a value
-3. Call the function, get the value, print the value
-4. Call the function , get the value as boolean : true / false, print with if ( true value )..else ( false value ) 
+4. Call the function, get the value, print the value
+5. Call the function , get the value as boolean : true / false, print with if ( true value )..else ( false value ) 
