@@ -1,6 +1,6 @@
 """
--- reversed(s) returns an iterator that yields characters from s in reverse order.
--- ''.join(reversed(s)) joins these characters into a new string.
+-- reversed(s): returns an iterator that yields characters from s in reverse order.
+-- ''.join(reversed(s)): joins these characters into a new string.
 
 """
 
